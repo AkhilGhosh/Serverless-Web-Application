@@ -9,14 +9,14 @@ The application will present users with an HTML-based user interface for indicat
 Application architecture:
 -------------------------
 
-1. Static Web Hosting: AWS Amplify hosts static web resources including HTML, CSS, JavaScript, and image files which are loaded in the 
-                       user's browser.
+1. Static Web Hosting: AWS Amplify hosts static web resources including HTML, CSS, JavaScript, and image files which are 
+   loaded in the user's browser.
 2. User Management: Amazon Cognito provides user management and authentication functions to secure the backend API.
 3. Serverless Backend: Amazon DynamoDB provides a persistence layer where data can be stored by the API's Lambda function.
-4. RESTful API: JavaScript executed in the browser sends and receives data from a public backend API built using Lambda and API Gateway.
+4. RESTful API: JavaScript executed in the browser sends and receives data from a public backend API built using Lambda 
+  and API Gateway.
 
 
-#######################
 
 AWS Services Using :
 --------------------
@@ -29,8 +29,8 @@ AWS Services Using :
 6. Amazon Simple Email Service
 
 
-* Amplify Console provides continuous deployment and hosting of the static web resources including HTML, CSS, JavaScript, and image files 
-  which are loaded in the user's browser.
+* Amplify Console provides continuous deployment and hosting of the static web resources including HTML, CSS, JavaScript,
+  and image files which are loaded in the user's browser.
 * JavaScript executed in the browser sends and receives data from a public backend API built using Lambda and API Gateway.
 * Amazon Cognito provides user management and authentication functions to secure the backend API.
 * DynamoDB provides a persistence layer where data can be stored by the API's Lambda function
